@@ -13,6 +13,8 @@
 		240FF349203CAED8004C7223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 240FF348203CAED8004C7223 /* Assets.xcassets */; };
 		240FF34C203CAED8004C7223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 240FF34A203CAED8004C7223 /* LaunchScreen.storyboard */; };
 		240FF34F203CAED8004C7223 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 240FF34E203CAED8004C7223 /* main.m */; };
+		240FF357203CAF12004C7223 /* ASParentClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 240FF356203CAF12004C7223 /* ASParentClass.m */; };
+		240FF35A203CB62E004C7223 /* ASChildClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 240FF359203CB62E004C7223 /* ASChildClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		240FF34B203CAED8004C7223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		240FF34D203CAED8004C7223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		240FF34E203CAED8004C7223 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		240FF355203CAF12004C7223 /* ASParentClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASParentClass.h; sourceTree = "<group>"; };
+		240FF356203CAF12004C7223 /* ASParentClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASParentClass.m; sourceTree = "<group>"; };
+		240FF358203CB62E004C7223 /* ASChildClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASChildClass.h; sourceTree = "<group>"; };
+		240FF359203CB62E004C7223 /* ASChildClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASChildClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		240FF33E203CAED8004C7223 /* Methods */ = {
 			isa = PBXGroup;
 			children = (
+				240FF355203CAF12004C7223 /* ASParentClass.h */,
+				240FF356203CAF12004C7223 /* ASParentClass.m */,
+				240FF358203CB62E004C7223 /* ASChildClass.h */,
+				240FF359203CB62E004C7223 /* ASChildClass.m */,
 				240FF33F203CAED8004C7223 /* AppDelegate.h */,
 				240FF340203CAED8004C7223 /* AppDelegate.m */,
 				240FF342203CAED8004C7223 /* ViewController.h */,
@@ -144,6 +154,8 @@
 			files = (
 				240FF344203CAED8004C7223 /* ViewController.m in Sources */,
 				240FF34F203CAED8004C7223 /* main.m in Sources */,
+				240FF35A203CB62E004C7223 /* ASChildClass.m in Sources */,
+				240FF357203CAF12004C7223 /* ASParentClass.m in Sources */,
 				240FF341203CAED8004C7223 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
